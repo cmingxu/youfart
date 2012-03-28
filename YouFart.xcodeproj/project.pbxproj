@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5741981522DA160050D3F2 /* fart1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A5741971522DA160050D3F2 /* fart1.jpg */; };
+		0A57419C1522DAAD0050D3F2 /* fart2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A5741991522DAAD0050D3F2 /* fart2.jpg */; };
+		0A57419D1522DAAD0050D3F2 /* fart3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A57419A1522DAAD0050D3F2 /* fart3.jpg */; };
+		0A57419E1522DAAD0050D3F2 /* fart4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A57419B1522DAAD0050D3F2 /* fart4.jpg */; };
+		0A5741A11522DC3F0050D3F2 /* fart5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A57419F1522DC3F0050D3F2 /* fart5.jpg */; };
+		0A5741A21522DC3F0050D3F2 /* fart0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A5741A01522DC3F0050D3F2 /* fart0.jpg */; };
+		0A5741A41522DEF10050D3F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5741A31522DEF10050D3F2 /* Default.png */; };
+		0A5741A61522DEFA0050D3F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5741A51522DEFA0050D3F2 /* Default@2x.png */; };
+		0A5741A81522DFB40050D3F2 /* fart-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5741A71522DFB40050D3F2 /* fart-icon.png */; };
+		0A5741AA1522E0110050D3F2 /* fart-icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5741A91522E0100050D3F2 /* fart-icon1.png */; };
+		0A5741AC1522E6120050D3F2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5741AB1522E6120050D3F2 /* AudioToolbox.framework */; };
+		0AB359421522D17500CDE0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB359411522D17500CDE0BC /* UIKit.framework */; };
+		0AB359441522D17500CDE0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB359431522D17500CDE0BC /* Foundation.framework */; };
+		0AB359461522D17500CDE0BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB359451522D17500CDE0BC /* CoreGraphics.framework */; };
+		0AB3594C1522D17500CDE0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB3594A1522D17500CDE0BC /* InfoPlist.strings */; };
+		0AB3594E1522D17500CDE0BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3594D1522D17500CDE0BC /* main.m */; };
+		0AB359521522D17500CDE0BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB359511522D17500CDE0BC /* AppDelegate.m */; };
+		0AB359551522D17500CDE0BC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB359531522D17500CDE0BC /* MainStoryboard_iPhone.storyboard */; };
+		0AB359581522D17600CDE0BC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB359561522D17500CDE0BC /* MainStoryboard_iPad.storyboard */; };
+		0AB3595B1522D17600CDE0BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3595A1522D17600CDE0BC /* ViewController.m */; };
+		0AB359631522D17600CDE0BC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB359621522D17600CDE0BC /* SenTestingKit.framework */; };
+		0AB359641522D17600CDE0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB359411522D17500CDE0BC /* UIKit.framework */; };
+		0AB359651522D17600CDE0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB359431522D17500CDE0BC /* Foundation.framework */; };
+		0AB3596D1522D17600CDE0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AB3596B1522D17600CDE0BC /* InfoPlist.strings */; };
+		0AB359701522D17600CDE0BC /* YouFartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3596F1522D17600CDE0BC /* YouFartTests.m */; };
+		0AB3597A1522D20900CDE0BC /* fart-wav-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AB359791522D20900CDE0BC /* fart-wav-2.wav */; };
+		0AB3597C1522D40800CDE0BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB3597B1522D40800CDE0BC /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AB359661522D17600CDE0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB359341522D17500CDE0BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB3593C1522D17500CDE0BC;
+			remoteInfo = YouFart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5741971522DA160050D3F2 /* fart1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fart1.jpg; path = ../../../../Desktop/fart1.jpg; sourceTree = "<group>"; };
+		0A5741991522DAAD0050D3F2 /* fart2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fart2.jpg; path = ../../../../Desktop/fart2.jpg; sourceTree = "<group>"; };
+		0A57419A1522DAAD0050D3F2 /* fart3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fart3.jpg; path = ../../../../Desktop/fart3.jpg; sourceTree = "<group>"; };
+		0A57419B1522DAAD0050D3F2 /* fart4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fart4.jpg; path = ../../../../Desktop/fart4.jpg; sourceTree = "<group>"; };
+		0A57419F1522DC3F0050D3F2 /* fart5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fart5.jpg; sourceTree = "<group>"; };
+		0A5741A01522DC3F0050D3F2 /* fart0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fart0.jpg; sourceTree = "<group>"; };
+		0A5741A31522DEF10050D3F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0A5741A51522DEFA0050D3F2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0A5741A71522DFB40050D3F2 /* fart-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fart-icon.png"; sourceTree = "<group>"; };
+		0A5741A91522E0100050D3F2 /* fart-icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fart-icon1.png"; sourceTree = "<group>"; };
+		0A5741AB1522E6120050D3F2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0AB3593D1522D17500CDE0BC /* YouFart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouFart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB359411522D17500CDE0BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AB359431522D17500CDE0BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AB359451522D17500CDE0BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AB359491522D17500CDE0BC /* YouFart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouFart-Info.plist"; sourceTree = "<group>"; };
+		0AB3594B1522D17500CDE0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB3594D1522D17500CDE0BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AB3594F1522D17500CDE0BC /* YouFart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouFart-Prefix.pch"; sourceTree = "<group>"; };
+		0AB359501522D17500CDE0BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AB359511522D17500CDE0BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AB359541522D17500CDE0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0AB359571522D17600CDE0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0AB359591522D17600CDE0BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AB3595A1522D17600CDE0BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AB359611522D17600CDE0BC /* YouFartTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouFartTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB359621522D17600CDE0BC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0AB3596A1522D17600CDE0BC /* YouFartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouFartTests-Info.plist"; sourceTree = "<group>"; };
+		0AB3596C1522D17600CDE0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB3596E1522D17600CDE0BC /* YouFartTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouFartTests.h; sourceTree = "<group>"; };
+		0AB3596F1522D17600CDE0BC /* YouFartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouFartTests.m; sourceTree = "<group>"; };
+		0AB359791522D20900CDE0BC /* fart-wav-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fart-wav-2.wav"; sourceTree = "<group>"; };
+		0AB3597B1522D40800CDE0BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB3593A1522D17500CDE0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5741AC1522E6120050D3F2 /* AudioToolbox.framework in Frameworks */,
+				0AB3597C1522D40800CDE0BC /* AVFoundation.framework in Frameworks */,
+				0AB359421522D17500CDE0BC /* UIKit.framework in Frameworks */,
+				0AB359441522D17500CDE0BC /* Foundation.framework in Frameworks */,
+				0AB359461522D17500CDE0BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB3595D1522D17600CDE0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB359631522D17600CDE0BC /* SenTestingKit.framework in Frameworks */,
+				0AB359641522D17600CDE0BC /* UIKit.framework in Frameworks */,
+				0AB359651522D17600CDE0BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB359321522D17500CDE0BC = {
+			isa = PBXGroup;
+			children = (
+				0A5741A91522E0100050D3F2 /* fart-icon1.png */,
+				0A5741A71522DFB40050D3F2 /* fart-icon.png */,
+				0A5741A51522DEFA0050D3F2 /* Default@2x.png */,
+				0A5741A31522DEF10050D3F2 /* Default.png */,
+				0AB359471522D17500CDE0BC /* YouFart */,
+				0AB359681522D17600CDE0BC /* YouFartTests */,
+				0AB359401522D17500CDE0BC /* Frameworks */,
+				0AB3593E1522D17500CDE0BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB3593E1522D17500CDE0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB3593D1522D17500CDE0BC /* YouFart.app */,
+				0AB359611522D17600CDE0BC /* YouFartTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB359401522D17500CDE0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5741AB1522E6120050D3F2 /* AudioToolbox.framework */,
+				0AB3597B1522D40800CDE0BC /* AVFoundation.framework */,
+				0AB359411522D17500CDE0BC /* UIKit.framework */,
+				0AB359431522D17500CDE0BC /* Foundation.framework */,
+				0AB359451522D17500CDE0BC /* CoreGraphics.framework */,
+				0AB359621522D17600CDE0BC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AB359471522D17500CDE0BC /* YouFart */ = {
+			isa = PBXGroup;
+			children = (
+				0AB359501522D17500CDE0BC /* AppDelegate.h */,
+				0AB359511522D17500CDE0BC /* AppDelegate.m */,
+				0AB359531522D17500CDE0BC /* MainStoryboard_iPhone.storyboard */,
+				0AB359561522D17500CDE0BC /* MainStoryboard_iPad.storyboard */,
+				0AB359591522D17600CDE0BC /* ViewController.h */,
+				0AB3595A1522D17600CDE0BC /* ViewController.m */,
+				0AB359481522D17500CDE0BC /* Supporting Files */,
+			);
+			path = YouFart;
+			sourceTree = "<group>";
+		};
+		0AB359481522D17500CDE0BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB359791522D20900CDE0BC /* fart-wav-2.wav */,
+				0AB359491522D17500CDE0BC /* YouFart-Info.plist */,
+				0AB3594A1522D17500CDE0BC /* InfoPlist.strings */,
+				0AB3594D1522D17500CDE0BC /* main.m */,
+				0A57419F1522DC3F0050D3F2 /* fart5.jpg */,
+				0A5741A01522DC3F0050D3F2 /* fart0.jpg */,
+				0A5741971522DA160050D3F2 /* fart1.jpg */,
+				0A5741991522DAAD0050D3F2 /* fart2.jpg */,
+				0A57419A1522DAAD0050D3F2 /* fart3.jpg */,
+				0A57419B1522DAAD0050D3F2 /* fart4.jpg */,
+				0AB3594F1522D17500CDE0BC /* YouFart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AB359681522D17600CDE0BC /* YouFartTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB3596E1522D17600CDE0BC /* YouFartTests.h */,
+				0AB3596F1522D17600CDE0BC /* YouFartTests.m */,
+				0AB359691522D17600CDE0BC /* Supporting Files */,
+			);
+			path = YouFartTests;
+			sourceTree = "<group>";
+		};
+		0AB359691522D17600CDE0BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB3596A1522D17600CDE0BC /* YouFartTests-Info.plist */,
+				0AB3596B1522D17600CDE0BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB3593C1522D17500CDE0BC /* YouFart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB359731522D17600CDE0BC /* Build configuration list for PBXNativeTarget "YouFart" */;
+			buildPhases = (
+				0AB359391522D17500CDE0BC /* Sources */,
+				0AB3593A1522D17500CDE0BC /* Frameworks */,
+				0AB3593B1522D17500CDE0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouFart;
+			productName = YouFart;
+			productReference = 0AB3593D1522D17500CDE0BC /* YouFart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AB359601522D17600CDE0BC /* YouFartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB359761522D17600CDE0BC /* Build configuration list for PBXNativeTarget "YouFartTests" */;
+			buildPhases = (
+				0AB3595C1522D17600CDE0BC /* Sources */,
+				0AB3595D1522D17600CDE0BC /* Frameworks */,
+				0AB3595E1522D17600CDE0BC /* Resources */,
+				0AB3595F1522D17600CDE0BC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB359671522D17600CDE0BC /* PBXTargetDependency */,
+			);
+			name = YouFartTests;
+			productName = YouFartTests;
+			productReference = 0AB359611522D17600CDE0BC /* YouFartTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB359341522D17500CDE0BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0AB359371522D17500CDE0BC /* Build configuration list for PBXProject "YouFart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AB359321522D17500CDE0BC;
+			productRefGroup = 0AB3593E1522D17500CDE0BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB3593C1522D17500CDE0BC /* YouFart */,
+				0AB359601522D17600CDE0BC /* YouFartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB3593B1522D17500CDE0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB3594C1522D17500CDE0BC /* InfoPlist.strings in Resources */,
+				0AB359551522D17500CDE0BC /* MainStoryboard_iPhone.storyboard in Resources */,
+				0AB359581522D17600CDE0BC /* MainStoryboard_iPad.storyboard in Resources */,
+				0AB3597A1522D20900CDE0BC /* fart-wav-2.wav in Resources */,
+				0A5741981522DA160050D3F2 /* fart1.jpg in Resources */,
+				0A57419C1522DAAD0050D3F2 /* fart2.jpg in Resources */,
+				0A57419D1522DAAD0050D3F2 /* fart3.jpg in Resources */,
+				0A57419E1522DAAD0050D3F2 /* fart4.jpg in Resources */,
+				0A5741A11522DC3F0050D3F2 /* fart5.jpg in Resources */,
+				0A5741A21522DC3F0050D3F2 /* fart0.jpg in Resources */,
+				0A5741A41522DEF10050D3F2 /* Default.png in Resources */,
+				0A5741A61522DEFA0050D3F2 /* Default@2x.png in Resources */,
+				0A5741A81522DFB40050D3F2 /* fart-icon.png in Resources */,
+				0A5741AA1522E0110050D3F2 /* fart-icon1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB3595E1522D17600CDE0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB3596D1522D17600CDE0BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB3595F1522D17600CDE0BC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB359391522D17500CDE0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB3594E1522D17500CDE0BC /* main.m in Sources */,
+				0AB359521522D17500CDE0BC /* AppDelegate.m in Sources */,
+				0AB3595B1522D17600CDE0BC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB3595C1522D17600CDE0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB359701522D17600CDE0BC /* YouFartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB359671522D17600CDE0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB3593C1522D17500CDE0BC /* YouFart */;
+			targetProxy = 0AB359661522D17600CDE0BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AB3594A1522D17500CDE0BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB3594B1522D17500CDE0BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AB359531522D17500CDE0BC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB359541522D17500CDE0BC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0AB359561522D17500CDE0BC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB359571522D17600CDE0BC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0AB3596B1522D17600CDE0BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB3596C1522D17600CDE0BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB359711522D17600CDE0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AB359721522D17600CDE0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB359741522D17600CDE0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouFart/YouFart-Prefix.pch";
+				INFOPLIST_FILE = "YouFart/YouFart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AB359751522D17600CDE0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouFart/YouFart-Prefix.pch";
+				INFOPLIST_FILE = "YouFart/YouFart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0AB359771522D17600CDE0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YouFart.app/YouFart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouFart/YouFart-Prefix.pch";
+				INFOPLIST_FILE = "YouFartTests/YouFartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0AB359781522D17600CDE0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YouFart.app/YouFart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouFart/YouFart-Prefix.pch";
+				INFOPLIST_FILE = "YouFartTests/YouFartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB359371522D17500CDE0BC /* Build configuration list for PBXProject "YouFart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB359711522D17600CDE0BC /* Debug */,
+				0AB359721522D17600CDE0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB359731522D17600CDE0BC /* Build configuration list for PBXNativeTarget "YouFart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB359741522D17600CDE0BC /* Debug */,
+				0AB359751522D17600CDE0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB359761522D17600CDE0BC /* Build configuration list for PBXNativeTarget "YouFartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB359771522D17600CDE0BC /* Debug */,
+				0AB359781522D17600CDE0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB359341522D17500CDE0BC /* Project object */;
+}
